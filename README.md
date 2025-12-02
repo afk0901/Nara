@@ -4,7 +4,7 @@ Bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/
 
 Currently implemented:
 
-- Email dialog flow when clicked on "Register" including email validation.
+- Email dialog flow when clicked on "Register".
 
 - Custom email validation logic (fully tested with Vitest)
 
