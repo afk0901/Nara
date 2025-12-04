@@ -10,6 +10,7 @@ export default function ToggleAbleDialog()
 
     return (
     <>
-    {isOpen && <Dialog></Dialog>}
+    {isOpen && 
+    <Dialog></Dialog>}
     </>)
 }

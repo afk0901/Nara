@@ -17,10 +17,13 @@ export default function Navbar() {
       </div>
       <div className="flex gap-4">
         <OutlinedButton
-          text="Log in"
+          text="Login"
           onClick={() => openDialog(LoginDialogContent, "Log in")}
         ></OutlinedButton>
-        <OutlinedButton text="Register" onClick={() => openDialog(RegisterDialogContent, "Enter your email")}></OutlinedButton>
+        <OutlinedButton text="Join" 
+        onClick={() => 
+        openDialog(RegisterDialogContent, "Your email address")}>
+        </OutlinedButton>
       </div>
     </nav>
   );
